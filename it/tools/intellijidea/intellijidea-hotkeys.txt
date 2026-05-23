@@ -1,0 +1,840 @@
+#ide #intellijidea #hotkey
+
+[File]
+    [New]
+        Project...
+        Project from Existing Sources... [Ctrl+P + E]
+        Project from Version Control... [Ctrl+Alt+PageUp] [Ctrl+P + C]
+        Module...
+        Module from Existing Sources...
+        Scratch File [Ctrl+Alt+Shift+Comma] [Alt+S + \]
+        Directory
+        HTML File
+        Stylesheet
+        JavaScript File
+        TypeScript File
+        tsconfig.json File
+        package.json File
+        OpenAPI Specification
+        Kotlin Script
+        Kotlin Worksheet
+        [Swing UI Designer]
+        EditorConfig File
+        Resource Bundle
+        [XML Configuration File]
+        [Diagram]
+        [Data Source]
+        DDL Data Source
+        Data Source from URL
+        Data Source from Path
+        Data Source in Path
+        Driver and Data Source
+        Driver
+        HTTP Request
+    Open...
+    [Open Recent] [Open Recent Projects] - [Alt+, + /]
+    Close Project
+    Close All Projects
+    Close Other Projects
+    Settings...
+    Project Structure...
+    [File Properties]
+        File Encoding
+        Remove BOM
+        Associate with File Type...
+        Make File Read-Only
+        [Line Separators]
+            CRLF - Windows (\r\n)
+            LF - Unix and macOS (\n)
+            CR - Classic macOS (\r)
+        Add BOM
+    [Local History]
+        Show History
+        Show History for Selection
+        Put Label...
+    Save All
+    Reload All from Disk - [Alt+R + A]
+    Invalidate Caches...
+    [Manage IDE Settings]
+        Import Settings...
+        Export Settings...
+        Restore Default Settings...
+        Settings Repository...
+        [Sync with Settings Repository]
+    [New Projects Settings]
+        Settings for New Projects...
+        Run Configuration Templates for New Projects...
+        Structure for New Projects...
+    [Export]
+        Print...
+    [Add to Favorites]
+        Add to New Favorites List
+    Power Save Mode - [Ctrl+P + V]
+    Exit
+
+    [File Open Actions]
+        Open... - [Ctrl+P + O]
+        [Open Project Actions]
+            [New]
+                Project from Version Control - [Ctrl+P + C]
+                Project from Existing Sources... - [Ctrl+P + E]
+
+[Edit]
+    [Editor Create/Delete Actions]
+        Delete - [Alt+[]
+    Undo Typing - [Ctrl+Z]
+    Redo - [Ctrl+Shift+Z]
+    Cut - [Ctrl+X]
+    Copy - [Ctrl+C]
+    Copy Path/Reference... - [Alt+C + P]
+    [Paste]
+        Paste - [Ctrl+V]
+        Paste from History... - [Ctrl+Shift+V]
+        Paste as Plain Text - [Ctrl+Alt+Shift+V]
+    Delete - [Delete]
+    [Find]
+        Find... [Ctrl+F]
+        Replace... [Ctrl+Alt+Shift+F]
+        Find Next Occurrence
+        Find Previous Occurrence
+        Select All Occurrences - [Ctrl+Alt+Shift+J]
+        Add Selection for Next Occurrence - [Alt+J]
+        Unselect Occurrence - [Alt+Shift+J]
+        In Selection
+        Next Occurrence of the Word at Caret
+        Find in Files... - [Alt+U + F]
+        Replace in Files...
+        Search Structurally...
+        Replace Structurally...
+        Find by XPath...
+        Evaluate JSONPath Expression...
+    [Find Usages] [Alt+U + A]
+        Find Usages - [Alt+F7] [Alt+U + ;]
+        Find Usages Settings... - [Alt+U + S]
+        Show Usages - [Alt+U + W]
+        Find Usages in File - [Ctrl+F7] [Alt+U + I]
+        Highlight Usages in File - [Ctrl+Shift+F7] [Alt+U + H]
+        Next Highlighted Usage - [Alt+U + N]
+        Previous Highlighted Usage - [Alt+U + P]
+        [Recent Find Usages] - [Alt+U + R]
+
+    Column Selection Mode - [Alt+Shift+Insert]
+    Select All - [Ctrl+A]
+    Add Carets to Ends of Selected Lines - [Alt+Shift+G]
+    Extend Selection - [Alt+W]
+    Shrink Selection - [Alt+Shift+W]
+    Toggle Case - [Ctrl+Shift+U]
+    Join Lines - [Ctrl+Shift+J]
+    Duplicate Line - [Ctrl+D]
+    Fill Paragraph - []
+    Sort Lines - []
+    Reverse Lines - []
+    Transpose - []
+    Indent Selection - [Tab]
+    Unindent Line or Selection - [Shift+Tab]
+    [Convert Indents]
+        To Spaces
+        To Tabs
+    [Macros] [Ctrl+Shift + \] [Alt+M + A]
+        Play Back Last Macro - [Ctrl + \]
+        Start Macro Recording - [Alt+M + R]
+        Edit Macros [Alt+M + E]
+        Play Saved Macros... [Alt+M + S]
+    [Bookmarks] [Alt+I + A]
+        Toggle Bookmark - [F11] [Alt+I + T]
+        Add Mnemonic Bookmark... - [Ctrl+F11] [Alt+I + M]
+        Previous Line Bookmark - [Alt+I + P]
+        Next Line Bookmark - [Alt+I + N]
+        Show Line Bookmarks... - [Shift+F11] [Alt+I + L]
+        Go to Mnemonic... - [Ctrl+Shift+F11] [Alt+I + G]
+        Rename Bookmark... - [Alt+I + R]
+    Encode XML/HTML Special Characters
+    Edit as Table...
+
+[View]
+    [Tool Windows] - [Alt+, + A]
+        Ant - []
+        Big Data Tools - [Alt+, + V]
+        Bookmarks - [Alt+, + I]
+        Build - [Alt+, + L]
+        Commit - [Alt+, + \]
+        Coverage - [Alt+, + O]
+        Database - [Alt+, + D]
+        Debug - [Alt+, + B]
+        Dependencies - [Alt+, + N]
+        Endpoints - [Alt+, + E]
+        Event Log - [Alt+, + L]
+        Find - [Alt+, + F]
+        Git - [Alt+, + .]
+        Gradle - [Ctrl+Alt+Shift+M] [Alt+, + G]
+        Hierarchy - [Alt+, + H]
+        Inspector - [Alt+, + []
+        Kafka - [Alt+, + F]
+        Learn - []
+        Maven - [Ctrl+Alt+Shift+M] [Alt+, + M]
+        Notifications - [Alt+, + `]
+        Problems - [Alt+, + M]
+        Profiler - [Alt+, + I]
+        Project - [Alt+, + P]
+        Pull Requests - [Alt+, + Y]
+        Python Packages - []
+        Run - [Alt+, + R]
+        Services - [Ctrl+Alt+Shift+[] [Alt+, + S]
+        SciView - []
+        Spring - [Alt+, + =]
+        Statistic - [Alt+, + -]
+        Structure - [Alt+, + U]
+        Terminal - [Alt+, + T]
+        Time Tracking - [Alt+, + `]
+        Todo -  [Alt+, + ;]
+    [Appearance] [Ctrl+P + A]
+        Enter Presentation Mode - [Ctrl+P + P]
+        Enter Distraction Free Mode - [Ctrl+P + D]
+        Enter Full Screen - [Ctrl+P + F]
+        Enter Zen Mode - [Ctrl+P + Z]
+        Main Menu
+        Toolbar
+        Navigation Bar
+        Tool Window Bars
+        Status Bar
+        Status Bar Widgets
+            Code With Me Wire stats
+            Line:Column Number
+            Line Separator
+            File Encoding
+            Editor Selection Mode
+            Indentation
+            JSON Schema
+            Git Branch
+            Read-Only Attribute
+            Memory Indicator
+        Details in Tree View
+        Members in Navigation Bar
+        Zoom IDE - [Ctrl+P + =]
+    Quick Definition - [Ctrl+Shift+I]
+    Show Siblings - []
+    Quick Type Definition - []
+    Quick Documentation - [Ctrl+Q] [Alt+Q]
+    Show Bytecode - [Alt+, + 1]
+    Parameter Info - [Alt+P]
+    Type Info - [Ctrl+Shift+P]
+    Context Info - []
+    Recent Files - [Ctrl+E] [Alt+E]
+    Recently Changed Files - [Ctrl+E]
+    Recent Locations - [Ctrl+Shift+E] [Alt+3]
+    Recent Changes - [Alt+Shift+C]
+    Compare With... - [Ctrl+D]
+    Compare with Clipboard - []
+    Quick Switch Scheme... - [Ctrl+`] [Ctrl+P + Q]
+    Active Editor
+    [Bidi Text Base Direction]
+        Content-based - []
+        Left-to-Right - []
+        Right-to-Left - []
+
+[Navigate]
+    Back - [Ctrl+Alt+Left] [Ctrl+Alt+J]
+    Forward - [Ctrl+Alt+Right] [Ctrl+Alt+;]
+    [Goto by Name Actions] - [Alt+U + A]
+        Class - [Alt+U + C]
+        File - [Alt+U + F]
+        Symbol - [Alt+U + S]
+        Text - [Alt+U + T]
+    Search Everywhere - [Shift+Shift] [Double Shift] [Alt+U + E]
+    Database Object... - [Alt+U + D]
+    Line:Column... - [Ctrl+G]
+    Next Highlighted Error - [F2]
+    Previous Highlighted Error - [Shift+F2]
+    Last Edit Location - [Ctrl+Shift+Backspace]
+    Next Edit Location - []
+    [Navigate in File]
+        Next Method - [Alt+Down] [Alt+M + L]
+        Previous Method - [Alt+Up] [Alt+M + K]
+        Move Caret to Matching Brace - [Ctrl+Shift+M]
+        Next Live Template Parameter - [Tab]
+        Previous Live Template Parameter - [Shift+Tab]
+        Custom Folding... - [Ctrl+Alt+.]
+        Next Change - [Ctrl+Alt+Shift+Down]
+        Previous Change - [Ctrl+Alt+Shift+Up]
+    Select In... - [Alt+F1] [Alt+S + A]
+    Jump to Navigation Bar - [Alt+Home]
+    Declaration or Usages - [Ctrl+B] [Alt+G]
+    Implementation(s) / go to implementation - [Alt+B]
+    Type Declaration - [Ctrl+Shift+B]
+    Super Method - []
+    Test - [Ctrl+Shift+T] [Ctrl+Alt+Shift+T]
+    Related Symbol... - [Ctrl+Alt+Home]
+    File Structure - [Ctrl+F12] [Ctrl+U]
+    File Path - [Ctrl+Alt+F12]
+    Type Hierarchy - [Ctrl+H]
+    Method Hierarchy - [Ctrl+Shift+H]
+    Call Hierarchy - [Ctrl+Alt+H]
+
+[Code]
+    Analyze Stack Trace or Thread Dump... - [Alt+S + T]
+    Override Methods... - [Ctrl+O]
+    Implement Methods... - [Ctrl+I]
+    Delegate Methods... - []
+    Generate... - [Alt+Insert] []
+    [Code Completion]
+        Basic - [Ctrl+Space]
+        Type-Matching - [Ctrl+Shift+Space]
+        Complete Current Statement - [Ctrl+Shift+Enter]
+        Cyclic Expand Word - [Alt+/]
+        Cycle Expand Word (Backward) - [Alt+Shift+/]
+    [Code Formatting Actions]
+        Optimize Imports - [Alt+S + O]
+        Reformat Code - [Alt+S + L]
+    Insert Live Template... - [Ctrl+J]
+    Surround With... - [Ctrl+Alt+T]
+    Unwrap/Remove... - [Ctrl+Shift+Delete]
+    [Folding]
+        Expand - [Ctrl+NumPad +] []
+        Expand Recursively - [Ctrl+Alt+NumPad +]
+        Expand All - [Ctrl+Shift+NumPad +]
+        Collapse - [Ctrl+NumPad -] [Alt+]]
+        Collapse Recursively - [Ctrl+Alt+NumPad -]
+        Collapse All - [Ctrl+Shift+NumPad -]
+        [Expand to Level]
+            1 - [Ctrl+NumPad *,1]
+            2 - [Ctrl+NumPad *,2]
+            3 - [Ctrl+NumPad *,3]
+            4 - [Ctrl+NumPad *,4]
+            5 - [Ctrl+NumPad *,5]
+        [Expand All to Level]
+            1 - [Ctrl+Shift+NumPad *,1]
+            2 - [Ctrl+Shift+NumPad *,2]
+            3 - [Ctrl+Shift+NumPad *,3]
+            4 - [Ctrl+Shift+NumPad *,4]
+            5 - [Ctrl+Shift+NumPad *,5]
+        Expand Doc Comments - []
+        Collapse Doc Comments - []
+        Fold Selection / Remove region - [Ctrl+.]
+        Fold Code Block - [Ctrl+Shift+.]
+    Comment with Line Comment - [Ctrl+/]
+    Comment with Block Comment - [Ctrl+Shift+/]
+    Reformat Code - [Ctrl+Alt+L]
+    Reformat File... - []
+    Auto-Indent Lines - [Ctrl+Alt+I]
+    Optimize Imports - [Ctrl+Alt+O]
+    Rearrange Code - []
+    Move Statement Down - [Ctrl+Shift+Down]
+    Move Statement Up - [Ctrl+Shift+Up]
+    Move Element Left - [Ctrl+Alt+Shift+Left]
+    Move Element Right - [Ctrl+Alt+Shift+Right]
+    Move Line Down - [Alt+Shift+Down] [Ctrl+Shift+K]
+    Move Line Up - [Alt+Shift+Up] [Ctrl+Shift+L]
+    Update Copyright - []
+    Generate module-info Descriptors - []
+    Convert Java File to Kotlin File - [Ctrl+Alt+Shift+K]
+
+[Analyze] - []
+    Inspect Code... - []
+    Code Cleanup... - []
+    Silent Code Cleanup - []
+    Run Inspection by Name... - []
+    Configure Current File Analysis... - []
+    View Offline Inspection Results... - []
+    Infer Nullity... - []
+    Infer Annotations... - []
+    Dependencies... - []
+    Backward Dependencies... - []
+    Module Dependencies... - []
+    Cyclic Dependencies... - []
+    Data Flow to Here... - []
+    Data Flow from Here... - []
+    Stack Trace or Thread Dump... - []
+
+[Refactor]
+    Refactor This... [Ctrl+Alt+Shift+T] [Alt+D + A]
+    Rename... [Shift+F6] [Alt+S + N]
+    Rename File... []
+    Change Signature... [Ctrl+F6]
+    Edit Property Value... [Alt+F6]
+    Type Migration... [Ctrl+Shift+F6]
+    Make Static... []
+    Convert To Instance Method... []
+    Move Members... [F6]
+    Copy Class... [F5]
+    Safe Delete... [Alt+Delete]
+    [Extract/Introduce]
+        Variable... [Ctrl+Alt+V] [Alt+S + V]
+        Constant... [Ctrl+Alt+C]
+        Field... [Ctrl+Alt+F]
+        Parameter... [Ctrl+Alt+P]
+        Functional Parameter... [Ctrl+Alt+Shift+P]
+        Functional Variable... []
+        Parameter Object... []
+        Method... [Ctrl+Alt+M] [Alt+D + M]
+        Type Parameter... []
+        Replace Method With Method Object... []
+        Delegate... []
+        Interface... []
+        Superclass... []
+    Inline... [Ctrl+Alt+N] [Alt+S + I]
+    Find and Replace Code Duplicates... []
+    Invert Boolean... []
+    Pull Members Up... []
+    Push Members Down... []
+    Use Interface Where Possible... []
+    Replace Inheritance with Delegation... []
+    Remove Middleman... []
+    Wrap Method Return Value... []
+    Encapsulate Fields... []
+    Replace Temp with Query... []
+    Replace Constructor with Factory Method... []
+    Replace Constructor with Builder... []
+    Generify... []
+    Migrate... []
+    [Lombok]
+    [Delombok]
+    Internationalize... []
+    Migrate to AndroidX... []
+    Add Right-to-Left (RTL) Support... []
+
+[Build]
+    Build Project - [Ctrl+F9] [Alt+R + B]
+    Build Module - []
+    Rebuild - [Ctrl+Shift+F9]
+    Recompile - [Ctrl+Shift+F9]
+    Rebuild Project - []
+    Build Artifacts... - []
+    Run Ant Target - [Ctrl+Shift+F10]
+
+[Run] - [Alt+R + A]
+    Run... - [Alt+R + R]
+    Debug... - [Alt+R + D]
+    Profile... - []
+    Attach to Process... - [Ctrl+Alt+F5]
+    Edit Configurations... - [Alt+R + C]
+    Stop - [Ctrl+F2] [Alt+R + S]
+    Stop Background Processes... - [Ctrl+Shift+F2]
+    Show Running List - []
+    [Debugging Actions]
+        Reload Changed Classes - []
+        Step Over - [F8]
+        Force Step Over - [Alt+Shift+F8]
+        Step Into - [F7]
+        Force Step Into - [Alt+Shift+F7]
+        Smart Step Into - [Shift+F7]
+        Step Out - [Shift+F8]
+        Run to Cursor - [Alt+F9]
+        Force Run to Cursor - [Ctrl+Alt+F9]
+        Drop Frame - []
+        Force Return - []
+        Throw Exception - []
+        Pause Program - []
+        Resume Program - [F9]
+        Evaluate Expression - [Alt+F8]
+        Quick Evaluate Expression - [Ctrl+Alt+F8]
+        Show Execution Point - [Alt+F10]
+        Get Thread Dump - []
+        Remove All Breakpoints - [Alt+T + R]
+    [Toggle Breakpoint] - [Alt+T + A]
+        Restore Breakpoint - [Ctrl+Alt+B]
+        Toggle Line Breakpoint - [Alt+T + L]
+        Toggle Method Breakpoint - [Alt+T + M]
+        Temporary Line Breakpoint - [Alt+T + ;]
+        Toggle Breakpoint Enabled - [Alt+T + E]
+    View Breakpoints... - [Ctrl+Shift+F8] [Alt+T + V]
+    [Test History]
+
+    Import Tests from File... - []
+    Show Coverage Data... - [Ctrl+Alt+F6]
+
+[Tools]
+    [Tasks & Contexts] - [Ctrl+` + A]
+        Switch Task... - [Alt+Shift+T] [Ctrl+` + S]
+        Open Task... - [Alt+Shift+N] [Ctrl+` + O]
+        Close Active Task... - [Ctrl+` + C]
+        Edit Task - [Ctrl+` + E]
+        Add Change List for 'Default task' - []
+        Show Description - [Ctrl+` + D]
+        Open in Browser - [Alt+Shift+B] [Ctrl+` + B]
+        Analyze Stack trace From Task... - []
+        Configure Servers... - [Alt+` + F] [Ctrl+` + V]
+        Save Context... - [Alt+Shift+S]
+        Load Context... - [Alt+Shift+L]
+        Clear Context - [Alt+Shift+X]
+        Start/Stop Timer - [Alt+` + `]
+    Code With Me... - [Ctrl+Shift+Y]
+    Save as Live Template...
+    Save File as Template...
+    Save Project as Template...
+    Manage Project Templates...
+    Generate JavaDoc...
+    IDE Scripting Console
+    [XML Actions]
+        Generate DTD from XML File
+        Convert Schema...
+        Generate XSD Schema from XML File...
+        Generate XML Document from XSD Schema...
+    JShell Console...
+    Groovy Console
+    [Kotlin]
+        Configure Kotlin Plugin Updates
+        Decompile Kotlin To Java
+        Enable Migrations Detection (Experimental)
+        Kotlin REPL
+        Configure Kotlin in Project
+        Configure Kotlin (JavaScript) in Project
+        Show Kotlin Bytecode
+    [Space]
+        Share Project on Space
+        Clone Repository...
+        Log In to Space...
+    Start SSH Session... - [Alt+S + ]]
+
+[VCS]
+    Enable Version Control Integration...
+    VCS Operations - [Alt+`]
+    Apply Patch... - []
+    Apply Patch from Clipboard... - []
+    Get from Version Control... - []
+    [Browse VCS Repository]
+        Browse Subversion Repository... - []
+        Show Git Repository Log... - []
+    Import into Subversion... - []
+    Share Project (Subversion)... - []
+    Create Mercurial Repository - []
+    Create Git Repository... - []
+    Share Project on GitHub - []
+    Share Project on Space - []
+
+[Git] - [Alt+. + A]
+    Commit... - [Alt+. + K]
+    Push... - [Ctrl+Shift+K] [Alt+. + P]
+    Update Project... - [Ctrl+T] [Alt+. + U]
+    Pull... - [Alt+. + ]]
+    Fetch - [Alt+. + F]
+    Merge... - [Alt+. + M]
+    Rebase... - [Alt+. + R]
+    Branches... - [Ctrl+Shift+`] [Alt+. + .]
+    New Branch... - [Alt+. + N]
+    New Tag... - []
+    Reset HEAD... - []
+    Show Git Log - [Alt+. + L]
+    [Patch]
+        Create Patch from Local Changes... - []
+        Apply Patch... - []
+        Apply Patch from Clipboard - []
+    [Uncommitted Changes]
+        Shelve Changes... - [Alt+. + V]
+        Show Shelf - [Alt+. + S]
+        Stash Changes...
+        Unstash Changes...
+        Rollback... [Ctrl+Alt+Z]
+    [Selected File]
+        Commit File... - [Alt+. + I]
+        Add - [Ctrl+Alt+A] [Alt+. + A]
+        Annotate with Git Blame - [Alt+. + /]
+        Show Diff - []
+        Compare with Revision... - [Alt+. + R]
+        Compare with Branch... - [Alt+. + C]
+        Show History - [Ctrl+Alt+Shift+H]
+        Show History for Selection - [Alt+Shift+H]
+    [GitHub]
+        Share Project on GitHub - []
+        Create Gits... - []
+    Manage Remotes... - [Alt+. + `]
+    Clone... - []
+    VCS Operations - [Alt+`]
+
+    [Git]
+        Show History - [Alt+. + H]
+        Show History for Selection - [Alt+. + I]
+    Show Vcs Log - [Ctrl+Alt+Shift+.]
+    Uncommitted Changes
+        Show Shelf
+
+[Window]
+    Store Current Layout as Default
+    Restore Default Layout - [Shift+F12]
+    [Active Tool Window]
+        Hide Active Tool Window - [Shift+Escape] [Alt+, + []
+        Hide Side Tool Windows - [Alt+, + ]]
+        Hide All Windows - [Ctrl+Shift+F12] [Alt+, + W]
+        Close Active Tab - [Ctrl+Shift+F4]
+        Jump to Last Tool Window - [F12]
+        Maximize Tool Window - [Ctrl+Shift+Quote]
+        [View Mode] - [Ctrl+P + M]
+            Dock Pinned - [Ctrl+P + I]
+            Dock Unpinned - []
+            Undock - []
+            Float - []
+            Window - [Ctrl+P + W]
+        [Move to]
+            Left Top - []
+            Left Bottom - []
+            Bottom Left - []
+            Bottom Right - []
+            Right Bottom - []
+            Right Top - []
+            Top Right - []
+            Top Left - []
+        Group Tabs
+        [Resize]
+            Stretch to Top - [Alt+, + K]
+            Stretch to Bottom - [Alt+, + L]
+            Stretch to Left - [Alt+, + J]
+            Stretch to Right - [Alt+, + ;]
+
+    [Editor Tabs] - [Alt+T + A]
+        Select Next Tab - [Alt+Right] [Alt+F]
+        Select Previous Tab - [Alt+Left] [Alt+A]
+        Pin Tab - [Alt+T + P]
+        Close - [Ctrl+F4] [Alt+Minus] [Alt + -]
+        Close Other Tabs - [Ctrl+Alt+Minus] [Alt+T + []
+        Close All Tabs - [Alt+T + ]]
+        Close Unmodified Tabs - [Alt+T + U]
+        Close All but Pinned - [Alt+T + O]
+        Close Tabs to the Left - []
+        Close Tabs to the Right - []
+        Close All Read-Only - []
+        Reopen Closed Tab - [Alt+T + R]
+        Split Right - [Alt+T + R]
+        Split Down - [Alt+T + D]
+        Stretch Editor to Top - []
+        Stretch Editor to Left - []
+        Stretch Editor to Bottom - []
+        Stretch Editor to Right - []
+        Change Splitter Orientation - []
+        Unpin Tab - [Alt+T + P]
+        Unsplit - [Alt+T + U]
+        Unsplit All - []
+        Goto Next Splitter - []
+        Goto Previous Splitter - []
+        Configure Editor Tabs - [Alt+T + S]
+    [Notifications]
+        Close First
+        Close All
+    [Background Tasks]
+        Show
+        Auto Show
+    Next Project Window - [Ctrl+Alt+]]
+    Previous Project Window - [Ctrl+Alt+[]
+
+[Help]
+    Find Action... - [Ctrl+Shift+A]
+    Help - []
+    Learn IDE Features - []
+    What's New in Intellij IDEA - []
+    Getting Started - []
+    Intellij IDEA on YouTube - []
+    Keyboard Shortcuts PDF (Keymap Reference) - []
+    Demos and Screencasts - []
+    Tip of the Day - []f
+    My Productivity (Productivity Guide) - []
+    Contact Support... - []
+    Submit a Bug Report... - []
+    Submit Feedback... - []
+    Show Log in Explorer - []
+    Collect Logs and Diagnostic Data - []
+    Delete Leftover IDE Directories... - []
+    [Diagnostic Tools]
+        Activity Monitor... - []
+        Analyze Plugin Startup Performance - []
+        Debug Log Settings... - []
+    Change Memory Settings
+    Edit Custom Properties
+    Edit Custom VM Options...
+    Check for Plugin Updates...
+    Register Plugins...
+    About
+
+-------------------------------------------------------------
+
+[Version Control Systems]
+    Amend Commit - [Alt+M]
+    Commit Message History - [Ctrl+M]
+    Compare with Local - []
+    Copy as Patch to Clipboard - []
+    Delete Changelist - [Alt+S + D]
+    Edit Changelist... - [Alt+S + N]
+    New Changelist... - [Alt+S + C]
+    [Diff & Merge]
+        Show Diff in a New Tab or Window - []
+    [Group By]
+        Module - [Ctrl+Alt+M]
+    [File History]
+        Cherry-Pick - [Alt+. + \]
+    [Shelve]
+        Create Patch... - []
+        Delete - [Alt+[]
+        Import Patches... - []
+        Rename... - [Alt+S + N]
+        Show Diff - []
+        Unshelve - [Alt+. + =]
+        Unshelve Silently - []
+
+[Editor Actions] - [Ctrl+Alt+Shift+F5]
+    Page Up - [Ctrl+K]
+    Page Down - [Ctrl+L]
+    Page Up with Selection - [Alt+Shift+H]
+    Page Down with Selection - [Alt+Shift+'] [Alt+Shift+Quote]
+    Copy - [Ctrl+C]
+    Cut - [Ctrl+X]
+    Paste - [Ctrl+V]
+    Paste as Plain Text - [Ctrl+Alt+Shift+V]
+    Hungry Backspace
+    Move Caret to Page Top - [Ctrl+Shift+I]
+    Move Caret to Page Bottom - [Ctrl+Shift+>]
+    Move Caret to Page Top with Selection
+    Move Caret to Page Bottom with Selection
+    Enter
+    Focus Editor
+    Up - [Alt+K]
+    Down - [Alt+L]
+    Left - [Alt+J]
+    Right - [Alt+;]
+    Up with Selection - [Alt+Shift+K]
+    Down with Selection - [Alt+Shift+L]
+    Left with Selection - [Alt+Shift+J]
+    Right with Selection - [Alt+Shift+;]
+    Unindent Line or Selection
+    Tab
+    Reset Font Size
+    Scroll Up
+    Scroll Down
+    Scroll Up and Move if Necessary
+    Scroll Down and Move if Necessary
+    Scroll Right
+    Scroll Left
+    Scroll to Top
+    Scroll to Bottom
+    Move Up and Scroll
+    Move Down and Scroll
+    Move Up and Scroll with Selection
+    Move Down and Scroll with Selection
+    Clone Caret Below
+    Clone Caret Above
+    Toggle Sticky Selection
+    Swap selection boundaries
+    Move Caret to Line Start - [Home] [Ctrl+H]
+    Move Caret to Line End - [End] [Ctrl+']
+    Cut Line Backward
+    Cut up to Line End
+    Delete to Line Start
+    Delete to Line End
+    Move Caret to Text Start - [Ctrl+Home] [Alt+M + I]
+    Move Caret to Text End - [Ctrl+End] [Alt+M + O]
+    Move Caret Forward a Paragraph -
+    Move Caret Backward a Paragraph -
+    Move Caret Forward a Paragraph with Selection
+    Move Caret Backward a Paragraph with Selection
+    Move Caret to Line Start with Selection - [Ctrl+Shift+H]
+    Move Caret to Line End with Selection - [Ctrl+Shift+']
+    Move Caret to Text Start with Selection
+    Move Caret to Text End with Selection
+    Move Caret to Next Word - [Ctrl+Right] [Alt+']
+    Move Caret to Next Word in Different "CamelHumps" Mode [Ctrl+;] [Ctrl+Alt+']
+    Move Caret to Next Word with Selection - [Ctrl+Shift+Right] [Alt+Shift+']
+    Move Caret to Next Word with Selection in Different "CamelHumps" Mode - [Ctrl+Alt+Shift+']
+    Move Caret to Previous Word - [Ctrl+Left] [Alt+H]
+    Move Caret to Previous Word in Different "CamelHumps" Mode - [Ctrl+Shift+Left] [Ctrl+Alt+H]
+    Move Caret to Previous Word with Selection - [Alt+Shift+H]
+    Move Caret to Previous Word with Selection in Different "CamelHumps" Mode - [Ctrl+Alt+Shift+H]
+    Delete to Word Start
+    Delete to Word Start in Different "CamelHumps" Mode
+    Delete to Word End - [Ctrl+Delete]
+    Delete to Word End in Different "CamelHumps" Mode
+    Delete Line - [Ctrl+Y] [Alt+Y]
+    Kill to Word Start
+    Kill to Word End
+    Kill Selected Region
+    Save to Kill Ring
+    Duplicate Line - [Ctrl+D]
+    Duplicate Entire Lines
+    Sort Lines
+    Reverse Lines
+    Toggle Insert/Overwrite
+    Column Selection Mode
+    Increase Font Size
+    Decrease Font Size
+    Scroll to Center - [Ctrl+M]
+    Toggle Case - [Ctrl+Shift+U]
+    Join Lines - [Ctrl+Shift+J]
+    Extend Line Selection
+    Select Single Line at Caret
+    Split Line
+    Start New Line - [Shift+Enter]
+    Start New Line Before Current - [Ctrl+Alt+Enter]
+    Transpose
+    Delete
+    Backspace
+    Show Gutter Icon Tooltip (accessibility) - [Alt+Shift+6, T]
+    Extend Selection - [Alt+W]
+    Shrink Selection - [Alt+Shift+W]
+    Indent Line or Selection
+    Emacs tab
+    Move Caret to Code Block Start - [Ctrl+[]
+    Move Caret to Code Block End - [Ctrl+]]
+    Move Caret to Matching Brace - [Ctrl+Shift+M]
+    Move Caret to Code Block Start with Selection - [Ctrl+Shift+[]
+    Move Caret to Code Block End with Selection - [Ctrl+Shift+]]
+    Complete Current Statement - [Ctrl+Shift+Enter]
+
+[Other]
+    [Bookmarks] - [Alt+I + A]
+        [Toggle by Number/Mnemonic]
+            Toggle Bookmark 1 - [Ctrl+Alt+I + 1]
+            Toggle Bookmark 2 - [Ctrl+Alt+I + 2]
+        [Go to by Number/Mnemonic]
+            Go to Bookmark 1 - [Alt+I + 1]
+            Go to Bookmark 2 - [Alt+I + 2]
+    Clear All - [Alt+C + A]
+    Reload from Disk - [Alt+R + F]
+    Rerun - [Alt+R + L]
+    Rerun Tests - [Alt+R + T]
+    Run context configuration - [Alt+R + O]
+    Run Dashboard (Services) - [Alt+, + R]
+    Run with Coverage context configuration - [Alt+R + G]
+    Stop - []
+    Show in Explorer - [Alt+S + E]
+    Show Line Numbers - [Alt+\ + N]
+    [Usage View Grouping]
+        Module - [Ctrl+Alt+M]
+    [Group By]
+        Modules - [Ctrl+Alt+M]
+    Select File in Project View / Select Opened File - [Alt+S + P]
+    [Tool Windows View Modes]
+        Dock Pinned - [Ctrl+P + I]
+        Windows - [Ctrl+P + W]
+    Zoom In IDE - [Alt+Shift + =]
+    Zoom Out IDE - [Alt+Shift + -] [Alt+Shift + Minus]
+
+Version Control Systems
+    Shelve
+        Unshelve... - [Ctrl+Shift+U] [Alt+. + []
+        Unshelve Silently - [Alt+. + ]]
+
+Other
+    Add to Favorites - [Ctrl+Alt+,]
+    Theme - [Ctrl+P + ]
+
+[Plugins]
+    [Git]
+        Squash Commits... - [Alt+. + Q]
+    [Gradle]
+        Execute Gradle Task - [Ctrl+Shift+G]
+    [Maven]
+        Execute Maven Goal - [Ctrl+Shift+G]
+        Reload All Maven Projects - []
+	[Database Tools and SQL]
+        Explain Plan - [Ctrl+E + E]
+        Explain Plan (Raw) - [Ctrl+E + R]
+        Open New Query Console - [Ctrl+Shift+Q]
+        Transpose - [Ctrl+E + T]
+    [Docker]
+        Down - [Alt+R + D]
+    [Java IDE Customization]
+        New - [Ctrl+Alt+N]
+        New Project... - [Ctrl+P + N]
+
+Editor Actions
+    Extend Selection - [Alt+W]
+    Shrink Selection - [Alt+Shift+W]
+
+MarkRootGroup - [Alt+Z + M]
+
+horizontal scrolling on windows - Shift + Mouse Wheel Up/Down
