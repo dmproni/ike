@@ -17,3 +17,20 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker && sudo systemctl enable docker
 sudo usermod -aG docker $USER && newgrp docker
+
+----- install docker on debian 11 (on 27.07.2026 the previous way doesn't work anymore)
+curl -fsSL https://download.docker.com/linux/static/stable/x86_64/docker-27.4.0.tgz -o docker.tgz
+sudo tar xzvf docker.tgz -C /usr/local/bin --strip-components=1
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo curl -fsSL https://raw.githubusercontent.com/docker/docker/master/contrib/init/systemd/docker.service -o /etc/systemd/system/docker.service
+sudo curl -fsSL https://raw.githubusercontent.com/docker/docker/master/contrib/init/systemd/docker.socket -o /etc/systemd/system/docker.socket
+sudo systemctl daemon-reload
+sudo systemctl enable docker.socket
+sudo systemctl enable docker.service
+sudo systemctl start docker
+rm docker.tgz
+docker --version
+sudo curl -fsSL "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
