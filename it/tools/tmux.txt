@@ -1,0 +1,15 @@
+sudo apt install tmux
+
+tmux new -s vpn
+tmux attach -t vpn (tmux a -t vpn)
+
+detach from session: Ctrl+b + d
+
+split vertically: Ctrl+B + %
+Split horizontally: Ctrl+B + "
+
+Create new window: c
+Next window: n
+Previous window: p
+Switch by number: 0/1/2
+Rename current window: ,
