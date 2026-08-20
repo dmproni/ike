@@ -8,4 +8,5 @@ sudo sshd -t
 sudo systemctl restart sshd
 2) on client machine:
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_tailscale -C "dm.proni@gmail.com"
-ssh-copy-id chezter@mainframelin
+ssh-copy-id -i ~/.ssh/id_ed25519_tailscale.pub chezter@mainframelin
+3) turn off password authentication
