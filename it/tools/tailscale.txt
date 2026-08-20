@@ -1,0 +1,11 @@
+#tailscale
+
+----- ssh setup
+1) on server machine:
+sudo nano /etc/ssh/sshd_config
+find 'PasswordAuthentication' and set it to 'yes'
+sudo sshd -t
+sudo systemctl restart sshd
+2) on client machine:
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_tailscale -C "dm.proni@gmail.com"
+ssh-copy-id chezter@mainframelin
